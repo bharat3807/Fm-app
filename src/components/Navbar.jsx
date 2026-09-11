@@ -10,7 +10,7 @@ function Navbar() {
 <Link to={"/"}>
  <FaHome className='w-[36px]  h-[36px]' />
 </Link>
-<Link to={"/"}>
+<Link to={"/Search"}>
  <IoSearch className='w-[36px]  h-[36px]' />
 </Link>
 <Link to={"/"}>

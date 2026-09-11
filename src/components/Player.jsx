@@ -10,10 +10,10 @@ import station from '../Station';
 function Player() {
   let {Playingfm, Playfm,pausefm, Index, setIndex}=useContext(datacontext)
   return (
-    <div className='w-[100%] md:w-[60%] h-[85px] bg-white  fixed bottom-[75px] md:bottom-0 rounded-t-[30px] shadow-lg flex pt-[10px] justify-center md:items-center md:p-20px'>
+    <div  className='w-[100%] md:w-[60%] h-[85px] bg-gray-500 absolute fixed bottom-[75px] md:bottom-0 rounded-t-[30px] shadow-lg flex pt-[10px] md:items-center md:p-20px md:right-75'>
        <div className='flex justify-start items-start  gap-[20px] w-[80%] h-[100%] cursor-pointer  pl-[30px]'>
       <div>
-        <img src={station[Index].img} alt='' className='w-[70px] max-h-[70px] md:max-h-[80px] md:w-[80px] rounded-lg object-fill'/>
+        <img src={station[Index].img} alt='' className='w-[70px] max-h-[60px] md:max-h-[70px] md:w-[80px] rounded-lg object-fill'/>
       </div>
      
       <div className='text-[15px] md:text-[20px]'>
@@ -22,7 +22,7 @@ function Player() {
         {station[Index].name}
       </div>
     
-      <div  className='text-gray-800 text-[0.6em] font-semibold ' >
+      <div  className='text-purple-95000 text-[0.6em] font-semibold ' >
         {station[Index].city}
       </div>
       </div>

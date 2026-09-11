@@ -9,7 +9,7 @@ import Search from './Search';
 function Home() {
  
   return (
-    <div className='bg-black min-h-screen  '>
+    <div className='bg-black min-h-screen pb-[180px] '>
         
        <div className='  flex gap-5 justify-center pt-16 overflow-hidden object-cover flex-wrap'>
        {Categories.map((category)=>{
@@ -25,8 +25,8 @@ function Home() {
         })}
         <div className='flex flex-wrap gap-4 justify-center items-center'>
 
-          {station.map((item)=>(
-            <Cards key={item.id} img={item.img} name={item.name} city={item.city} />
+          {station.map((item, index)=>(
+            <Cards key={item.id || index} img={item.img} name={item.name} city={item.city} stationIndex={index}/>
           ))}
         </div>
         </div>     

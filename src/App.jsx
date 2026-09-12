@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Search from './pages/Search'
 import Liked from './pages/Liked'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Player from './components/Player';
+import Player from './Components/Player'
 function App() {
   return (  
 <BrowserRouter>

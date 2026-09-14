@@ -31,14 +31,14 @@ className='w-[90%] md:w-[60%] h-[60px]  bg-gray-800  flex justify-center items-c
 
 (
 <div className='text-gray-700 text-[30px] font-bold'>
-  This FM channel is not available.
+  This Radio channel is not available.
 </div>
 ))
 
 :
 
 (
-<div className='text-gray-700 text-[30px] font-bold'>Search Fm Channels</div>
+<div className='text-gray-700 text-[30px] font-bold'>Search Radio Channels</div>
 )}
 
     </div>

@@ -9,7 +9,7 @@ function Like() {
      <Player/>
      {!station.length<1?<>
        <h1 className='text-white text-semibold text-[30px]  md:text-[40px]  my-2 items-center pr-[50px]'>
-      🩷Liked Fm radio
+      🩷Liked Radio channels
      </h1>
      <div className='w-full md:h-[100%] h-[65%] flex  flex-wrap   items-center justify-center gap-3 px-2 overflow-auto'>
       {station.map((item, index)=>(
@@ -19,7 +19,7 @@ function Like() {
      </div>
       </>
     :
-    <div className='text-gray-700 text-[30px] font-bold mt-10'> No liked Fm </div>
+    <div className='text-gray-700 text-[30px] font-bold mt-10'> No liked Radio channels </div>
     }
     
     </div>

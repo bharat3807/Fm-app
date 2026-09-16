@@ -5,7 +5,7 @@ import { IoMdPause } from "react-icons/io";
 import station from '../Station';
 
 function Player() {
-  const { Playingfm, Playfm, pausefm, Index, nextfm, prevfm } = useContext(datacontext);
+  const { PlayingFm, Playfm, pausefm, Index, nextfm, prevfm } = useContext(datacontext);
 
   return (
    <div className='w-[94%] max-w-[560px] h-[72px] md:h-[80px] bg-[#9bb0ba] fixed bottom-[72px] md:bottom-0 left-0 right-0 mx-auto rounded-[22px] shadow-2xl flex items-center justify-between px-3 md:px-5 z-50 overflow-hidden box-border'>
@@ -33,16 +33,29 @@ function Player() {
       </button>
 
     
-      {!Playingfm ? (
-        <button onClick={() => Playfm()} className='w-[38px] h-[38px] md:w-[46px] md:h-[46px] rounded-full bg-black text-white flex justify-center items-center hover:bg-gray-800 transition cursor-pointer shrink-0' >
-          <FaPlay className='text-xs md:text-sm translate-x-[1px]' />
-        </button>
-      ) : (
-        <button onClick={() => pausefm()} className='w-[38px] h-[38px] md:w-[46px] md:h-[46px] rounded-full bg-black text-white flex justify-center items-center hover:bg-gray-800 transition cursor-pointer shrink-0'>
-          <IoMdPause className='text-sm md:text-base' />
-        </button>
-      )}
-
+    {!PlayingFm ? (
+  <button 
+    type="button"
+    onClick={() => {
+      console.log("Player bar: PLAY dabaya gaya!");
+      Playfm();
+    }} 
+    className='w-[38px] h-[38px] md:w-[46px] md:h-[46px] rounded-full bg-black text-white flex justify-center items-center hover:bg-gray-800 transition cursor-pointer shrink-0 z-50'
+  >
+    <FaPlay className='text-xs md:text-sm translate-x-[1px]' />
+  </button>
+) : (
+  <button 
+    type="button"
+    onClick={() => {
+      console.log("Player bar: PAUSE dabaya gaya!");
+      pausefm();
+    }} 
+    className='w-[38px] h-[38px] md:w-[46px] md:h-[46px] rounded-full bg-black text-white flex justify-center items-center hover:bg-gray-800 transition cursor-pointer shrink-0 z-50'
+  >
+    <IoMdPause className='text-sm md:text-base' />
+  </button>
+)}
       
       <button onClick={() => nextfm()} className='w-[32px] h-[32px] md:w-[38px] md:h-[38px] rounded-full bg-black text-white flex justify-center items-center hover:bg-gray-800 transition cursor-pointer shrink-0'>
         <FaForwardStep className='text-[10px] md:text-xs' />

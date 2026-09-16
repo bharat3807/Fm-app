@@ -15,7 +15,7 @@ const station=[
         category:"Hindi",
         city:"Delhi",
         img: image1,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/f3wvbbqmdg8uv"
 
     },
     {
@@ -24,7 +24,7 @@ const station=[
         category:"Hindi",
         city:"Mumbai",
         img: image2,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/cfw2p9yn98uvv"
 
     },
     {
@@ -33,7 +33,7 @@ const station=[
         category:"Hindi",
         city:"Mumbai",
         img: image3,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/549zcm7wz7zuv"
 
     },
     {
@@ -42,7 +42,7 @@ const station=[
         category:"Hindi",
         city:"Gujarat",
         img: image4,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/8x93c03xrhruv"
 
     },
      {
@@ -51,7 +51,7 @@ const station=[
         category:"Hindi",
         city:"Mumbai",
         img: image5,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/hpdxc2755tzuv"
 
     },
      {
@@ -60,7 +60,7 @@ const station=[
         category:"Hindi",
         city:"Delhi",
         img: image6,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/549zcm7wz7zuv"
 
     },
      {
@@ -69,7 +69,7 @@ const station=[
         category:"News",
         city:"Mumbai",
         img: image7,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/7kcm9ng27tzuv"
 
     },
      {
@@ -78,7 +78,7 @@ const station=[
         category:"News",
         city:"Delhi",
         img: image8,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/0r0xa792kwzuv"
 
     },
      {
@@ -87,7 +87,7 @@ const station=[
         category:"Bhakti",
         city:"Mumbai",
         img: image9,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/wbwdc68u838uv"
 
     },
    
@@ -98,7 +98,7 @@ const station=[
         category:"Bhakti",
         city:"India",
         img: image10,
-        URL:"https://stream-283.surfernetwork.com/n2fd0edh9k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMmZkMGVkaDlrOHV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJsSFN2TzloV1FNLUhyZEluOUZUdkRBIiwiaWF0IjoxNzg3NTkyNzEzLCJleHAiOjE3ODc1OTI3NzN9.SK9iU6YI_R7F3v97kaRRhS8qd3eE-0uSrfinbfC-mUo"
+        URL:"https://stream.zeno.fm/1f4ndq8ne7zuv"
 
     },
     
